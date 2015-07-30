@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>资源管理</title>
+</head>
+
+<body>
+    <form action='/resource/list' method="post">
+        名称：<input type='text' name='name'> 
+        子系统：<input type='text' name='system_id_id'>
+        <table border="1">
+            <tr>
+                <td>id：</td>
+                <td>名称：</td>
+                <td>子系统：</td>
+                <td>创建时间：</td>
+                <td>修改时间：</td>
+                <td>操作</td>
+            </tr>
+            {% for r in r_list %}
+            <tr>
+                <td>{{r.id}}</td>
+                <td>{{r.name}}</td>
+                <td>{{r.system_id_id}}</td>
+                <td>{{r.created|date:"Y-m-d H:i:s"}}</td>
+                <td>{{r.modified|date:"Y-m-d H:i:s"}}</td>
+                <td><a href="/resource/edit?id={{r.id}}">修改</a>|<a href="/resource/delete?id={{r.id}}">删除</a></td>
+            </tr>
+            {% endfor %}
+
+
+        </table>
+        <input type="submit" value="查询">
+        <a href="/resource/add">添加</a>
+
+
+    </form>
+</body>
+</html>

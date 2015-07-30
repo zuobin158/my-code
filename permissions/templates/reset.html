@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="../static/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../static/css/common.css">
+	<title>学堂在线-CMS后台管理系统</title>
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">
+						<img alt="学堂在线-CMS" src="../static/images/logo.png">
+					</a>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<div class="container form-container">
+		<h3>CMS后台管理系统</h3>
+		<div class="panel panel-default">
+			<div class="panel-body">
+				<h3>重新设置密码</h3>
+				<hr/>
+				<form id="reset-form" class="form-horizontal">
+					<div class="form-group">
+						<label for="pwd1" class="col-xs-4 control-label">新密码：</label>
+						<div class="col-xs-8">
+							<input type="password" class="form-control" id="pwd1">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="pwd2" class="col-xs-4 control-label">重复新密码：</label>
+						<div class="col-xs-8">
+							<input type="password" class="form-control" id="pwd2">
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="hint-block col-xs-offset-4 col-xs-8 text-danger"></div>
+					</div>
+					<div class="form-group">
+						<div class="col-xs-offset-4 col-xs-8">
+							<button type="submit" class="btn btn-default">完成</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+<script src="../static/js/config.js"></script>
+<script src="../static/js/libs/require.js" data-main="./src/reset"></script>
+</body>
+</html>

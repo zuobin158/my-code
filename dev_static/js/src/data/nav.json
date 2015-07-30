@@ -1,0 +1,14 @@
+{
+	"statusCode": 0,
+	"nickname": "zhangyiyi",
+	"navs": [
+		{"url": "#community", "label": "社区管理", "subnavs" : [
+			{"url": "#community/posts", "label": "帖子"},
+			{"url": "#community/comments", "label": "评论"},
+			{"url": "#community/user", "label": "用户"},
+			{"url": "#community/reports", "label": "举报"},
+			{"url": "#community/tags", "label": "标签"}
+		]},
+		{"url": "#letter/letters", "label": "站内信"}
+	]
+}

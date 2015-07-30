@@ -1,0 +1,13 @@
+{
+	"statusCode": 0,
+	"pages": {
+		"page": 1,
+		"totalPage": 3,
+		"recordsPerPage": 100,
+		"totalRecord": 55
+	},
+	"list": [
+		{"id": "11111", "nickname": "xixi_9999", "registerDate": "2015/05/05 21:00:00", "isProhibit": false, "hasAvatar": true},
+		{"id": "215253", "nickname": "妥妥828", "registerDate": "2015/05/05 21:00:00", "isProhibit": true, "hasAvatar": false}
+	]
+}

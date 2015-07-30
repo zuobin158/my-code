@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>资源管理</title>
+</head>
+
+<body>
+    <form action='/resource/save_or_update' method="post">
+        <input type="hidden" name="id" value="{{resource.id}}">
+        <table border="1">
+            <tr>
+                <td>名称：<input type="text" name="name" value="{{resource.name}}"></td>
+                <td>子系统：<input type="text" name="system_id_id" value="{{resource.system_id_id}}"></td>
+                <td>扩展属性
+                    <textarea name="ext_content">{{resource.ext_content}}</textarea>
+                </td>
+                <td>描述<input type="text" name="description" value="{% if resource.description %} {{resource.description}} {%else%}{%endif%}"></td>
+            </tr>
+        </table>
+        
+        <input type="submit" value="提交">
+
+
+    </form>
+</body>
+</html>

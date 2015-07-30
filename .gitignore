@@ -1,0 +1,15 @@
+*.pyc
+.settings/org.eclipse.core.resources.prefs
+.pydevproject
+conf/.settings.py.swp
+*.swp
+.DS_Store
+.project
+nohup.out
+.idea
+*.log
+dev_conf.py
+logs/*/*.log
+result/*.txt
+static/
+

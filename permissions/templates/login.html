@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+    <meta name="ajax_to_login" />
+	<link rel="stylesheet" type="text/css" href="static/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="static/css/common.css">
+	<title>学堂在线-CMS后台管理系统</title>
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">
+						<img alt="学堂在线-CMS" src="static/images/logo.png">
+					</a>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<div class="container form-container">
+		<h3>CMS后台管理系统</h3>
+		<div class="panel panel-default">
+			<div class="panel-body">
+				<h3>登陆</h3>
+				<hr/>
+				<form id="login-form" class="form-horizontal">
+					<div class="form-group">
+						<label for="username" class="col-xs-3 control-label">用户名：</label>
+						<div class="col-xs-9">
+							<input type="text" class="form-control" id="username" placeholder="用户名">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="password" class="col-xs-3 control-label">密码：</label>
+						<div class="col-xs-9">
+							<input type="password" class="form-control" id="password" placeholder="密码">
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-xs-offset-3 col-xs-9">
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" id="keep-login"><u>R</u>记住我的登录信息
+								</label>
+							</div>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="hint-block col-xs-offset-3 col-xs-9 text-danger"></div>
+					</div>
+					<div class="form-group">
+						<div class="col-xs-offset-3 col-xs-9">
+							<button type="submit" class="btn btn-default">登录</button>
+							<a class="forget-link" href="forget.html">忘记密码</a>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+<script src="static/js/config.js"></script>
+<script src="static/js/libs/require.js" data-main="./src/index"></script>
+</body>
+</html>

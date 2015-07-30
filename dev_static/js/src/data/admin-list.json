@@ -1,0 +1,13 @@
+{
+	"statusCode": 0,
+	"pages": {
+		"page": 1,
+		"totalPage": 3,
+		"recordsPerPage": 100,
+		"totalRecord": 55
+	},
+	"list": [
+		{"id": "1", "real_name": "常成", "name": "changcheng", "email": "changcheng@xuetangx.com", "phone": "18911111111", "role": "Admin", "activestatus": "1", "authorities" : "CMS-首页管理-Banner；CMS-首页管理-系列课程组；CMS-首页管理-系列课程；CMS-首页管理-帖子管理；CMS-社区管理-学堂公告；CMS-社区管理-Banner；CMS-社区管理-推荐活动；CMS-社区管理-标签；CMS-社区管理-帖子；CMS-社区管理-评论；CMS-社区管理-用户；CMS-社区管理-举报；CMS-站内信；SSO；"},
+		{"id": "2", "real_name": "常晓丹", "name": "changxiaodan", "email": "changxiaodan@xuetangx.com", "phone": "18911111112", "role": "首页管理员", "activestatus": "2", "authorities" : "CMS-首页管理-Banner；CMS-首页管理-系列课程组；CMS-首页管理-系列课程；CMS-首页管理-帖子管理；"}
+	]
+}

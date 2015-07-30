@@ -1,0 +1,35 @@
+{
+	"statusCode": 0,
+	"list": [
+		{
+			"id": "1",
+			"name": "清华CAP",
+			"original": "http://storage.xuetangx.com/public_assets/xuetangx/event/apcourse/banner.png",
+			"thumbnail": "http://storage.xuetangx.com/public_assets/xuetangx/event/apcourse/mini_banner.jpg",
+			"background": "http://storage.xuetangx.com/public_assets/xuetangx/event/apcourse/banner_bg.jpg",
+			"background_image_width": "1100",
+			"background_image_color": "#fff",
+			"page_url": "http://www.xuetangx.com/event/apcourse",
+			"order": "1",
+			"is_active": "1",
+			"created_time": "2015/05/05 21:00:00",
+			"modified_time": "2015/06/30 21:00:00",
+			"update_user": "zhangyiyi"
+		},
+		{
+			"id": "2",
+			"name": "《计算机科学和Python编程导论》",
+			"original": "http://storage.xuetangx.com/public_assets/xuetangx/banner/MITx/6_00_1x/2015_T1/banner.png",
+			"thumbnail": "http://storage.xuetangx.com/public_assets/xuetangx/banner/MITx/6_00_1x/2015_T1/mini_banner.png",
+			"background": "",
+			"background_image_width": "1100",
+			"background_image_color": "#306DA8",
+			"page_url": "http://www.xuetangx.com/courses/course-v1:MITx+6_00_1x+2015_T1/about",
+			"order": "2",
+			"is_active": "0",
+			"created_time": "2015/05/05 21:00:00",
+			"modified_time": "2015/06/30 21:00:00",
+			"update_user": "zhangyiyi"
+		}
+	]
+}

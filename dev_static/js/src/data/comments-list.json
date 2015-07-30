@@ -1,0 +1,13 @@
+{
+	"statusCode": 0,
+	"pages": {
+		"page": 1,
+		"totalPage": 3,
+		"recordsPerPage": 100,
+		"totalRecord": 55
+	},
+	"list": [
+		{"id": "1", "author": "啦啦啦22", "content": "抢沙发~~", "createTime": "2015/05/05 21:00:00", "post": {"author": "妥妥828", "id": "128", "title": "【有奖征文】11111"}},
+		{"id": "2", "author": "月上柳梢头", "content": "我要参与。因为i课堂三年征文我就获了奖。那么问题来了，写好的文章怎么发呢？", "createTime": "2015/05/05 21:00:00", "post": {"author": "妥妥828", "id": "128", "title": "【有奖征文】11111"}}
+	]
+}

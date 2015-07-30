@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="../static/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../static/css/common.css">
+	<title>学堂在线-CMS后台管理系统</title>
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="http://www.xuetangx.com" target="_blank">
+						<img alt="学堂在线-CMS" src="../static/images/logo.png">
+					</a>
+				</div>
+				<ul class="nav navbar-nav navbar-left site-nav">
+					<li><a href="main.html">CMS</a></li>
+					<li class="active"><a href="javascript:;">SSO</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<div class="container">
+		<div class="row">
+			<div id="leftnav" class="col-xs-2"></div>
+			<div id="main" class="col-xs-10"></div>
+		</div>
+	</div>
+	<div class="loading">
+		<div class="loading-inner"></div>
+	</div>
+<script src="../static/js/config.js"></script>
+<script src="../static/js/libs/require.js" data-main="./src/sso-main"></script>
+</body>
+</html>

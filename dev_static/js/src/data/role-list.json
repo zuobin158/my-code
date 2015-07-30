@@ -1,0 +1,13 @@
+{
+	"statusCode": 1,
+	"list": [
+		{
+			"id": 1,
+			"name": "帖子管理员"
+		},
+		{
+			"id": 2,
+			"name": "Admin"
+		}
+	]
+}

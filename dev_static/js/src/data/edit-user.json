@@ -1,0 +1,23 @@
+{
+	"statusCode": 1,
+	"id": "1",
+	"real_name": "张依依",
+	"name": "zhangyiyi",
+	"email": "zhangyiyi@xuetangx.com",
+	"phone": "18911111111",
+	"is_active": "1",
+	"group_auth_list": [
+		{
+			"id": "1",
+			"role": "角色1",
+			"is_checked": 1,
+			"authorities": "帖子;评论;标签;"
+		},
+		{
+			"id": "2",
+			"role": "角色2",
+			"is_checked": 0,
+			"authorities": "帖子;评论;标签;"
+		}
+	]
+}

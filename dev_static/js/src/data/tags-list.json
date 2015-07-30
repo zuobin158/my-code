@@ -1,0 +1,15 @@
+{
+	"statusCode": 0,
+	"list": [
+		{"tagId": "1", "label": "推荐"},
+		{"tagId": "2", "label": "加精置顶"},
+		{"tagId": "3", "label": "笔记"},
+		{"tagId": "4", "label": ""},
+		{"tagId": "5", "label": ""},
+		{"tagId": "6", "label": ""},
+		{"tagId": "7", "label": ""},
+		{"tagId": "8", "label": ""},
+		{"tagId": "9", "label": ""},
+		{"tagId": "10", "label": ""}
+	]
+}

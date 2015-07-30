@@ -1,0 +1,21 @@
+{
+	"statusCode": 0,
+	"pages": {
+		"page": 1,
+		"totalPage": 3,
+		"recordsPerPage": 100,
+		"totalRecord": 55
+	},
+	"list": [
+		{"author": "妥妥828", "id": "128", "title": "【有奖征文】11111", "createDate": "2015/05/05 21:00:00", "isHide":true, "tags" : [
+			{"id": "1", "label": "推荐", "isChecked": true},
+			{"id": "2", "label": "加精置顶", "isChecked": false},
+			{"id": "3", "label": "笔记", "isChecked": false}
+		]},
+		{"author": "再见阳光", "id": "234", "title": "【有奖征文】33333", "createDate": "2015/05/05 21:00:00", "isHide":false, "tags" : [
+			{"id": "1", "label": "推荐", "isChecked": true},
+			{"id": "2", "label": "加精置顶", "isChecked": true},
+			{"id": "3", "label": "笔记", "isChecked": false}
+		]}
+	]
+}
